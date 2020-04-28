@@ -4,6 +4,10 @@ html, body {
   padding: 0;
 }
 
+.hide {
+  display: none;
+}
+
 .save-note {
   display: none;
 }

@@ -1,1 +1,1 @@
-[{"title":"Test Title","text":"Test text"}]
+[{"title":"Title 0","text":"Text 0","complete":false,"hide":false},{"title":"Title 1","text":"Text 1","complete":false,"hide":true},{"title":"bob","text":"was here","complete":false,"hidden":false,"hide":true}]

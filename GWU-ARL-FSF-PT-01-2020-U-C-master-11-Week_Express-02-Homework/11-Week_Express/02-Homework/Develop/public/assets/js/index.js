@@ -111,8 +111,10 @@ var renderNoteList = function(notes) {
 
   for (var i = 0; i < notes.length; i++) {
     var note = notes[i];
-
-    var $li = $("<li class='list-group-item'>").data(note);
+    note.id = i;
+    // template literal ternery operator
+    var $li = $(`<li class='list-group-item ${note.hide ? "hide": ''}'>`).data(note);
+    console.log($li.data())
     var $span = $("<span>").text(note.title);
     var $delBtn = $(
       "<i class='fas fa-trash-alt float-right text-danger delete-note'>"
