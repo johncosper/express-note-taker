@@ -99,7 +99,7 @@ var handleRenderSaveBtn = function() {
   if (!$noteTitle.val().trim() || !$noteText.val().trim()) {
     $saveNoteBtn.hide();
   } else {
-    $saveNoteBtn.show();
+    $saveNoteBtn.show(); 
   }
 };
 

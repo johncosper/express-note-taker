@@ -9,7 +9,7 @@ html, body {
 }
 
 .save-note {
-  display: none;
+  display: show;
 }
 
 .icons i {

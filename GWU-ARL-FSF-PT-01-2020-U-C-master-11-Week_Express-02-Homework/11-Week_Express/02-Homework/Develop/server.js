@@ -48,7 +48,7 @@ app.listen(port, () => console.log(`Example app listening at http://localhost:${
 function getJson() {
     let data = fs.readFileSync(__dirname + '/db/db.json');
     let json = JSON.parse(data);
-    console.log('Got the data!');
+    // console.log('Got the data!');
     return json;
 }
 
